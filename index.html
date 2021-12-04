@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="stylesheet" href="./resources/responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>birnömrə</title>
+</head>
+
+<body onload="loadfun()">
+
+
+    <!-- PRELOADER -->
+    <div id="preloader-bg">
+        <div id="loading"></div>
+    </div>
+    <!-- PRELOADER-END -->
+
+
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="header-inner row">
+                <div class="header-title">
+                    <a href="index.html"><img class="img-fluid" src="./resources/img/birnömrə logo.png" alt=""></a>
+                </div>
+                <div class="social">
+                    <a href=""><img class="img-fluid" src="./resources/img/Vector11.svg" alt=""></a>
+                    <a href=""><img class="img-fluid" src="./resources/img/Vector (1).svg" alt=""></a>
+                    <a href=""><img class="img-fluid" src="./resources/img/Group.svg" alt=""></a>
+                    <a href=""><img class="img-fluid" src="./resources/img/Vector111.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-line"></div>
+    <!-- Header End -->
+
+
+    <!--REKLAM  -->
+    <div class="container">
+        <div class="ad col-lg-12 mt-4">
+            <a href=""><img class="img-fluid" src="./resources/img/de.png" alt=""></a>
+        </div>
+    </div>
+    <!-- REKLAM-END -->
+
+
+    <!-- NUMBER-ENTER-UNIT -->
+    <div class="mt-4 container">
+        <div class="enter-number row ">
+            <div class=" col-lg-3 col-xl-3 col-md-12 col-sm-12 col-12 prefix-selector">
+                <div class="select">
+                    <select name="slct" id="slct" selected placeholder="fff">
+                        <option selected disabled hidden>Prefiks</option>
+                        <optgroup label="Azercell">
+                            <option value="050">050</option>
+                            <option value="051">051</option>
+                            <option value="010">010</option>
+                        </optgroup>
+                        <optgroup label="Bakcell">
+                            <option value="055">055</option>
+                            <option value="099">099</option>
+                        </optgroup>
+                        <optgroup label="Nar">
+                            <option value="070">070</option>
+                            <option value="077">077</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-9 col-xl-9 col-md-12 col-sm-12 col-12 number-form">
+                <form action="">
+                    <div class="row">
+                        <div class=" col-lg-7 col-xl-7 col-md-12 col-sm-12 col-12 input-container">
+                            <input class="numbers numberonly" type="text" maxlength="1" name="" id="" placeholder="0">
+                            <input class="numbers numberonly" type="text" maxlength="1" name="" id="" placeholder="0">
+                            <input class="numbers numberonly" type="text" maxlength="1" name="" id="" placeholder="0">
+                            <input class="numbers numberonly" type="text" maxlength="1" name="" id="" placeholder="0">
+                            <input class="numbers numberonly" type="text" maxlength="1" id="" placeholder="0">
+                            <input class="numbers numberonly" type="text" maxlength="1" id="" placeholder="0">
+                            <input class="numbers numberonly" type="text" maxlength="1" id="" placeholder="0">
+                        </div>
+                        <div class=" col-lg-5 col-xl-5 col-md-12 col-sm-12 col-12 button-container">
+                            <button class="number-button1" type="button" data-toggle="modal"
+                                data-target="#exampleModal"><img src="./resources/img/Vector.svg" alt="">
+                                Axtar</button>
+                            <button class="number-button2" type="reset"><img src="./resources/img/Group 263.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- NUMBER-ENTER-UNIT-END  -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close-button" data-dismiss="modal" aria-label="Close">
+                        <img src="./resources/img/Group 263.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Əfsuslar olsun , sorğunuza uyğun heç bir nömrə tapılmadı.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- MODAL-END -->
+
+
+    <!-- MAIN-PHOTO  -->
+    <div class="container">
+        <div class="mt-4 main row">
+            <div class="main-img"><img class="img-fluid" src="./resources/img/delta.png" alt="">
+                <div class="main-text">
+                    <h1>Nömrə seçmək <b>bizimlə</b> daha <b>rahatdır !</b> </h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- MAIN-PHOTO  -->
+
+
+    <!-- SHIPPING -->
+    <div class="container">
+        <div class="mt-5 shipping">
+            <img src="./resources/img/shipping.png" alt="">
+            <h1>Bütün Azərbaycana çatdırılma</h1>
+        </div>
+    </div>
+    <!-- SHIPPING-END -->
+
+
+    <!-- STEPPED PROGRESS BAR -->
+    <div class="container mt-5">
+        <div class=" prog-bar row">
+            <div tabindex="1" class="aaa"><input id="stepper" value="Sadə" type="submit" class="button " /> </div>
+            <div tabindex="1" class="aaa"><input id="stepper1" value="Gümüş" type="button" class="button " /> </div>
+            <div tabindex="1" class="aaa"><input id="stepper2" value="Qızıl" type="button" class="button " /> </div>
+            <div tabindex="1" class="aaa"><input id="stepper3" value="Platinium" type="button" class="button " /> </div>
+        </div>
+        <section class="checkout-progress-indicator mt-5">
+            <div class="progress">
+                <div class="step" id="1">
+                    <span>0</span>
+                </div>
+                <div class="direction" id="12"></div>
+                <div class="step" id="2">
+                    <span>10</span>
+                </div>
+                <div class="direction" id="13"></div>
+                <div class="step" id="3">
+                    <span>25</span>
+                </div>
+                <div class="direction" id="14"></div>
+                <div class="step" id="4">
+                    <span>50</span>
+                </div>
+                <div class="direction" id="15"></div>
+                <div class="step" id="5">
+                    <span>100</span>
+                </div>
+                <div class="direction" id="16"></div>
+                <div class="step" id="6">
+                    <span>150</span>
+                </div>
+                <div class="direction" id="17"></div>
+                <div class="step" id="7">
+                    <span>250</span>
+                </div>
+                <div class="direction" id="18"></div>
+                <div class="step" id="8">
+                    <span>500</span>
+                </div>
+                <div class="direction" id="19"></div>
+                <div class="step step-image" id="9">
+                    <span><img class="right-arrow" src="./resources/img/Vector.png" alt=""></span>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- STEPPED PROGRESS BAR END -->
+
+
+    <!-- NUMBER INFORMATION -->
+    <div class="container">
+        <div class="mt-5 table-responsive unresponsive-number">
+            <table class="table">
+                <thead>
+                    <tr class="text-center">
+                        <th scope="col">Nömrə</th>
+                        <th scope="col">Qiymət</th>
+                        <th scope="col">Əlaqə nömrəsi</th>
+                        <th scope="col">Əlaqəli şəxs</th>
+                        <th scope="col">Mənbə</th>
+                        <th scope="col">Sifariş</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-center bg-grad text-light">
+                        <td>055 788 99 03</td>
+                        <td>50</td>
+                        <td>055 788 99 03</td>
+                        <td>Baku Telecom </td>
+                        <td>Bakcell</td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="table-button-white" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sifariş et
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                                    <a class="dropdown-item" href="#">Whatsapp</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="text-center">
+                        <td>055 788 99 03</td>
+                        <td>50</td>
+                        <td>055 788 99 03</td>
+                        <td>Baku Telecom </td>
+                        <td>Bakcell</td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="table-button" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sifariş et
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                                    <a class="dropdown-item" href="#">Whatsapp</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="text-center bg-grad text-light">
+                        <td>055 788 99 03</td>
+                        <td>50</td>
+                        <td>055 788 99 03</td>
+                        <td>Baku Telecom </td>
+                        <td>Bakcell</td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="table-button-white" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sifariş et
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                                    <a class="dropdown-item" href="#">Whatsapp</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="text-center">
+                        <td>055 788 99 03</td>
+                        <td>50</td>
+                        <td>055 788 99 03</td>
+                        <td>Baku Telecom </td>
+                        <td>Bakcell</td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="table-button" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sifariş et
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                                    <a class="dropdown-item" href="#">Whatsapp</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="text-center bg-grad text-light">
+                        <td>055 788 99 03</td>
+                        <td>50</td>
+                        <td>055 788 99 03</td>
+                        <td>Baku Telecom </td>
+                        <td>Bakcell</td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="table-button-white" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sifariş et
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                                    <a class="dropdown-item" href="#">Whatsapp</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <!--RESPONSİVE NUMBER İNFORMATİON -->
+        <div class="card text-white bg-primary mb-3 responsive-number">
+            <div class="card-body">
+                <h5 class="card-title txt-ag">055 788 99 03</h5>
+                <p class="card-text">7900 AZN</p>
+                <p class="card-text txt-ag">Baku Telecom <br> (055 788 99 03)</p>
+                <div class="btn-group dropright">
+                    <button type="button" class="buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sifariş et
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                        <a class="dropdown-item" href="#">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white bg-primary mb-3 responsive-number">
+            <div class="card-body">
+                <h5 class="card-title txt-ag">055 788 99 03</h5>
+                <p class="card-text ">7900 AZN</p>
+                <p class="card-text txt-ag">Baku Telecom <br> (055 788 99 03)</p>
+                <div class="btn-group dropright">
+                    <button type="button" class="buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sifariş et
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                        <a class="dropdown-item" href="#">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white bg-primary mb-3 responsive-number">
+            <div class="card-body">
+                <h5 class="card-title txt-ag">055 788 99 03</h5>
+                <p class="card-text">7900 AZN</p>
+                <p class="card-text txt-ag">Baku Telecom <br> (055 788 99 03)</p>
+                <div class="btn-group dropright">
+                    <button type="button" class="buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sifariş et
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                        <a class="dropdown-item" href="#">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white bg-primary mb-3 responsive-number">
+            <div class="card-body">
+                <h5 class="card-title txt-ag">055 788 99 03</h5>
+                <p class="card-text">7900 AZN</p>
+                <p class="card-text txt-ag">Baku Telecom <br> (055 788 99 03)</p>
+                <div class="btn-group dropright">
+                    <button type="button" class="buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sifariş et
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                        <a class="dropdown-item" href="#">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white bg-primary mb-3 responsive-number">
+            <div class="card-body">
+                <h5 class="card-title txt-ag">055 788 99 03</h5>
+                <p class="card-text">7900 AZN</p>
+                <p class="card-text txt-ag">Baku Telecom <br> (055 788 99 03)</p>
+                <div class="btn-group dropright">
+                    <button type="button" class="buy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sifariş et
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="tel:+994557632301">Zəng et</a>
+                        <a class="dropdown-item" href="#">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--RESPONSİVE NUMBER İNFORMATİON END-->
+    </div>
+    <!-- NUMBER INFORMATION-END -->
+
+
+    <!-- PAGINITION -->
+    <div class="container ggg ">
+        <nav aria-label="Page navigation example ">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#"><i class="fad fa-chevron-double-left"></i></a></li>
+                <li class="page-item"><a class="page-link" href="#"><span>1</span></a></li>
+                <li class="page-item"><a class="page-link" href="#"><span>2</span></a></li>
+                <li class="page-item"><a class="page-link" href="#"><span>3</span></a></li>
+                <li class="page-item"><a class="page-link" href="#"><i class="fad fa-chevron-double-right"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- PAGINITION-END -->
+
+
+    <!-- SOCIAL LINKS -->
+    <div class="container">
+        <div class="row social mt-4 ">
+            <h1>Bizi izləyin.</h1>
+            <a href=""><img class="img-fluid" src="./resources/img/Vector11.svg" alt=""></a>
+            <a href=""><img class="img-fluid" src="./resources/img/Vector (1).svg" alt=""></a>
+            <a href=""><img class="img-fluid" src="./resources/img/Group.svg" alt=""></a>
+            <a href=""><img class="img-fluid" src="./resources/img/Vector111.svg" alt=""></a>
+        </div>
+    </div>
+    <!-- SOCIAL LINKS END -->
+
+
+    <!-- WHATSAPP ICON -->
+    <div>
+        <a class="whats-app" href="https://wa.me/+994515460341">
+            <img src="./resources/img/Group 468.svg" alt="">
+        </a>
+    </div>
+    <!-- WHATSAPP-ICON-END -->
+
+
+    <!--REKLAM  -->
+    <div class="container">
+        <div class="ad col-lg-12 mt-4">
+            <a href=""><img class="img-fluid" src="./resources/img/de.png" alt=""></a>
+        </div>
+    </div>
+    <!-- REKLAM-END -->
+
+
+    <!-- FOOTER -->
+    <div class="footer mt-5 container-fluid">
+        <div class="footer-text">
+            <h1>birnömrə</h1>
+            <p>Copyright © 2021 <a href="http://deirvlon.com/az"><b>Deirvlon Technologies.</b></a> All rights reserved.
+            </p>
+        </div>
+    </div>
+    <!-- FOOTER-END-->
+
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <!-- SCRIPTS END -->
+</body>
+
+</html>
